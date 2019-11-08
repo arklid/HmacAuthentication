@@ -1,7 +1,7 @@
 # HmacAuthentication
 Hash-based message authentication code (HMAC) is a mechanism for calculating a message authentication code involving a hash function in combination with a secret key. This can be used to verify the integrity and authenticity of a a message.
 
-This implementation is highly influenced by the main authentication method used by Amazon Web Services as it is very well understood, and there are a number of libraries which implement it. To use this form of authentication you utilise a key identifier and a secret key, with both of these typically generated in an admin interface.
+This implementation is highly inspired by the main authentication method used by Amazon Web Services (AWS Signature V4) as it is very well understood, and there are a number of libraries which implement it. To use this form of authentication you utilise a key identifier and a secret key, with both of these typically generated in an admin interface.
 
 **HmacAuthentication** provides an [`AuthenticationHandler`](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.authentication.authenticationhandler-1?view=aspnetcore-2.1) which supports [HMAC](https://en.wikipedia.org/wiki/HMAC) authentication in an ASP.NET Core project.
 
